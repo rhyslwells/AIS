@@ -1,0 +1,2 @@
+# AIS
+Amateur investing seminar
