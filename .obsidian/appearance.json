@@ -1,0 +1,12 @@
+{
+  "accentColor": "#4e407d",
+  "cssTheme": "Atom",
+  "theme": "obsidian",
+  "baseFontSize": 17,
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "dashboard",
+    "properties"
+  ],
+  "baseFontSizeAction": true
+}

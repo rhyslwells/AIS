@@ -1,0 +1,223 @@
+{
+  "workspaces": {
+    "obsidian": {
+      "main": {
+        "id": "19e05f7c509d4913",
+        "type": "split",
+        "children": [
+          {
+            "id": "fa6276b2e596cb29",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "350ba6f73474e39f",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1_Inbox/Home.md",
+                    "mode": "preview",
+                    "backlinks": true,
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "7c8c0c793bfb57d5",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3_DS Notes/Decision Tree.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "573ef51ccfddc4b2",
+        "type": "split",
+        "children": [
+          {
+            "id": "641b0892929b424d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c1b62b58193264ce",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "ceea3442e0b845c5",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:#clustering",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "866e316afbba8c7b",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 288.5069465637207
+      },
+      "right": {
+        "id": "5b13eed461f71e5a",
+        "type": "split",
+        "children": [
+          {
+            "id": "9454b722f578abbd",
+            "type": "tabs",
+            "dimension": 44.904458598726116,
+            "children": [
+              {
+                "id": "8da9fd0a40a682bf",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "3_DS Notes/Decision Tree.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.7415367794414278,
+                      "close": true
+                    }
+                  }
+                }
+              },
+              {
+                "id": "ff3901bb682c970e",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "71bdd913dd026b43",
+            "type": "tabs",
+            "dimension": 55.095541401273884,
+            "children": [
+              {
+                "id": "023b75570ad2cd68",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3_DS Notes/Decision Tree.md"
+                  }
+                }
+              },
+              {
+                "id": "963f7ede39bb1d8b",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "3_DS Notes/Decision Tree.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "28da7ea0ac42d34e",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "3_DS Notes/Decision Tree.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 336.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": true,
+          "graph:Open graph view": true,
+          "canvas:Create new canvas": true,
+          "daily-notes:Open today's daily note": true,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "audio-recorder:Start/stop recording": true,
+          "workspaces:Manage workspace layouts": true,
+          "vscode-editor:Create Code File": true,
+          "obsidian-spaced-repetition:Review flashcards": false,
+          "homepage:Open homepage": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-projects:Open projects": false
+        }
+      },
+      "active": "963f7ede39bb1d8b",
+      "mtime": "2024-04-11T21:02:25+01:00"
+    }
+  },
+  "active": "obsidian"
+}

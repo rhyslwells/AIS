@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "19e05f7c509d4913",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed974cee703665d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "07366f85dbecf014",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "573ef51ccfddc4b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "641b0892929b424d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1b62b58193264ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ceea3442e0b845c5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "batch",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "866e316afbba8c7b",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "31c0ee9704fa582b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 360.5
+  },
+  "right": {
+    "id": "5b13eed461f71e5a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9454b722f578abbd",
+        "type": "tabs",
+        "dimension": 47.29299363057325,
+        "children": [
+          {
+            "id": "8da9fd0a40a682bf",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.6734587848972738,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
+            "id": "ff3901bb682c970e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bed1602ce4915e48",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "71bdd913dd026b43",
+        "type": "tabs",
+        "dimension": 52.70700636942675,
+        "children": [
+          {
+            "id": "023b75570ad2cd68",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "963f7ede39bb1d8b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "28da7ea0ac42d34e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 336.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": true,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "audio-recorder:Start/stop recording": true,
+      "workspaces:Manage workspace layouts": true,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-projects:Open projects": false,
+      "vscode-editor:Create Code File": false
+    }
+  },
+  "active": "07366f85dbecf014",
+  "lastOpenFiles": [
+    "data_storage/GMMC/GMMC_schema.sql",
+    "data_storage/GMMC/GMMC_schema.md",
+    "1_Inbox/Home.md",
+    "Recruiter Naomi.md",
+    "Data Capture.md",
+    "Overview.md",
+    "Data storage.md",
+    "Home.md",
+    "Veolia prep/Veolia prep.md",
+    "Veolia prep/ProntoForm.md",
+    "3_DS Notes/Hadoop.md",
+    "3_DS Notes/Gradient Descent.md",
+    "4_Engineering/Data engineer.md",
+    "Microsoft access.md",
+    "2_Projects/Todos obsidian.md",
+    "3_Tray/Kaggle Abalone regression.md",
+    "4_Engineering/ETL.md",
+    "Databases/Data warehouse.md",
+    "3_DS Notes/Snowflake.md",
+    "4_Engineering/Storage solutions.md",
+    "Databases/Relating tables.md",
+    "Databases/Optimisation.md",
+    "SQL/ACID of Transactions.md",
+    "SQL/MySql.md",
+    "4_Engineering/Scaling databases.md",
+    "SQL/SQLite.md",
+    "Databases",
+    "SQL",
+    "1_Inbox/Business",
+    "2_Projects/Learning_repo/Learning repo canvas.canvas",
+    "0_Archive/prompts",
+    "Veolia prep",
+    "0_Archive/imgs/Pasted image 20240411093348.png",
+    "0_Archive/imgs/Pasted image 20240524193844.png",
+    "0_Archive/imgs/Pasted image 20240523192220.png",
+    "0_Archive/imgs/Pasted image 20240524131603.png",
+    "0_Archive/imgs/Pasted image 20240524131507.png",
+    "0_Archive/imgs/Pasted image 20240524131311.png",
+    "0_Archive/imgs/Pasted image 20240524130607.png",
+    "4_Engineering",
+    "4_Engineering/SQL",
+    "CI",
+    "1_Inbox/8_Job_hunt/5. Autumn23 Team Veson.pdf",
+    "0_Archive/imgs/Pasted image 20240415105641.png",
+    "2_Projects/Github_io/Github.io canvas.canvas",
+    "0_Archive/imgs/Pasted image 20240411095614.png",
+    "2_Projects/AIS/AIS ideas.canvas",
+    "2_Projects/Image_matching/Image matching canvas.canvas",
+    "0_Archive/imgs/Pasted image 20240405173403.png",
+    "9_Focus/Exploration.canvas",
+    "9_Focus/Pathway.canvas",
+    "1_Inbox/Data Science/Admin/Data Science Learning.canvas",
+    "0_Archive/2023_Life_Plan/Overview.canvas",
+    "1_Inbox/Phd/Function flow/Done/graph_stability_conditions.canvas",
+    "1_Inbox/Phd/Function flow/Done/analyse_cycles.canvas"
+  ]
+}

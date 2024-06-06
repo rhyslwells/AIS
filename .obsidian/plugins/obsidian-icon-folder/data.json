@@ -1,0 +1,71 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "LiBox",
+      "FabOptinMonster",
+      "LiStar",
+      "LiSprout",
+      "LiTerminalSquare"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "icon": "LiHammer",
+        "rule": "DS Notes\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 0,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiHammer",
+        "rule": "1_Inbox/Data Science/Data science course 2021/Part_4_Python/Done/S24_L148/DS Notes/DS Probability Bayesian.md\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 1,
+        "useFilePath": true
+      },
+      {
+        "icon": "LiHammer",
+        "rule": "1_Inbox/Data Science/Data science course 2021/Part_4_Python/Done/S24_L148/DS Notes\\/[\\w\\d\\s]+\\.(?:\\w+\\.)*\\w+",
+        "for": "files",
+        "order": 2,
+        "useFilePath": true
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": false,
+    "iconIdentifier": ":",
+    "iconsInLinksEnabled": false,
+    "debugMode": false
+  },
+  "1_Inbox/Data Science": "LiHammer",
+  "0_Archive": "LiBed",
+  "1_Inbox/Work": "LiHourglass",
+  "1_Inbox": "LiInbox",
+  "1_Inbox/2_flashcards": "LiFlashlight",
+  "1_Inbox/3_Practical": "LiTerminalSquare",
+  "1_Inbox/8_Job_hunt": "LiStar",
+  "2_Projects": "LiSprout",
+  "3_DS Notes": "LiHammer",
+  "2_Projects/Github_io/Github_io Kanban.md": "LiStar",
+  "SQL/Querying.md": "LiBox",
+  "SQL/Subquerying.md": "LiBox",
+  "SQL/Views.md": "LiBox",
+  "4_Engineering/Scaling databases.md": "LiStar",
+  "Databases/Database schema.md": "LiBox",
+  "Databases": "LiBox",
+  "Recruiter Naomi.md": "LiStar"
+}
