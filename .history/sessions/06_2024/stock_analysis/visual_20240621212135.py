@@ -49,22 +49,13 @@ def plot_comparison(df1, df2, ticker1,ticker2):
     plt.tight_layout()
     plt.savefig(f'{ticker[0]}_{ticker[1]}_comparison.png')
     plt.show()
-
-def plot_volume(df, ticker):
-    """
-    Plots the volume of a stock over time.
-    
-    Args:
-        df (pandas.DataFrame): The DataFrame containing the stock data.
-        ticker (str): The ticker symbol of the stock.
-    """
-    plt.figure(figsize=(10, 5))
-    plt.bar(df.index, df['Volume'], label='Volume')
-    plt.title(f'{ticker} Volume')
-    plt.xlabel('Date')
-    plt.ylabel('Volume')
-    plt.legend()
-    plt.grid(True)
-    plt.savefig(f'{ticker}_volume.png')
-    plt.show()
-
+# Plot Volume
+plt.figure(figsize=(10, 5))
+plt.bar(df.index, df['Volume'], label='Volume')
+plt.title(f'{ticker} Volume')
+plt.xlabel('Date')
+plt.ylabel('Volume')
+plt.legend()
+plt.grid(True)
+plt.savefig(f'{ticker}_volume.png')
+plt.show()

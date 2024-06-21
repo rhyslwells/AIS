@@ -12,8 +12,6 @@ end_date = datetime.datetime.now()
 df_yahoo = get_yahoo_data(tickers, start_date, end_date)
 # df_web_google = get_web_data("GOOGL", start_date, end_date)
 
-df=df_yahoo
-
 # Add indicators and plot
 df = add_bollinger_bands(df)
 plot_bollinger_bands(df, ticker)

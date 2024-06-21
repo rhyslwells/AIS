@@ -1,7 +1,7 @@
 import datetime
 from data_retrieval import get_yahoo_data, get_web_data
 from visual import plot_adjusted_close, plot_moving_average, plot_comparison
-from technicals import add_bollinger_bands, plot_bollinger_bands, calculate_rsi, plot_rsi, calculate_macd, plot_macd
+from technicals import add_bollinger_bands, plot_bollinger_bands
 
 ticker = "VEOEY"
 tickers = [ticker]
@@ -10,19 +10,7 @@ end_date = datetime.datetime.now()
 
 # Get data
 df_yahoo = get_yahoo_data(tickers, start_date, end_date)
-# df_web_google = get_web_data("GOOGL", start_date, end_date)
-
-df=df_yahoo
-
-# Add indicators and plot
-df = add_bollinger_bands(df)
-plot_bollinger_bands(df, ticker)
-
-df = calculate_rsi(df)
-plot_rsi(df, ticker)
-
-df = calculate_macd(df)
-plot_macd(df, ticker)
+df_web_google = get_web_data("GOOGL", start_date, end_date)
 
 
 # # Plot data
