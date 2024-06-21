@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note.md",
+                "file": "docs/schedule.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.50198364257812
+    "width": 445.5019836425781
   },
   "right": {
     "id": "5b13eed461f71e5a",
@@ -109,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "note.md",
+                "file": "docs/schedule.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note.md"
+                "file": "docs/schedule.md"
               }
             }
           },
@@ -181,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note.md",
+                "file": "docs/schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note.md",
+                "file": "docs/schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,8 +229,9 @@
   },
   "active": "c1b62b58193264ce",
   "lastOpenFiles": [
-    "README.md",
+    "sessions/06_2024/analysis.ipynb",
     "note.md",
+    "README.md",
     "data_storage/GMMC/GMMC_schema.sql",
     "data_storage/GMMC/GMMC_schema.md",
     "1_Inbox/Home.md",
@@ -255,7 +256,6 @@
     "Databases/Optimisation.md",
     "SQL/ACID of Transactions.md",
     "SQL/MySql.md",
-    "4_Engineering/Scaling databases.md",
     "Databases",
     "SQL",
     "1_Inbox/Business",

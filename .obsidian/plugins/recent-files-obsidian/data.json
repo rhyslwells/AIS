@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "schedule",
+      "path": "docs/schedule.md"
+    },
+    {
       "basename": "note",
       "path": "note.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Get data",
       "path": "3_DS Notes/Get data.md"
-    },
-    {
-      "basename": "linkedin postings",
-      "path": "0_Archive/linkedin postings.md"
     }
   ],
   "omittedPaths": [],
