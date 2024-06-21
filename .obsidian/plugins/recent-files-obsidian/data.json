@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "note",
+      "path": "note.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "linkedin postings",
       "path": "0_Archive/linkedin postings.md"
-    },
-    {
-      "basename": "windows pip install",
-      "path": "0_Archive/software/windows pip install.md"
     }
   ],
   "omittedPaths": [],

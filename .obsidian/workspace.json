@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "628ab8fa6a7d5d70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 249.50198364257812
   },
   "right": {
     "id": "5b13eed461f71e5a",
@@ -95,7 +109,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "note.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -157,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "note.md"
               }
             }
           },
@@ -167,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,8 +227,10 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "07366f85dbecf014",
+  "active": "c1b62b58193264ce",
   "lastOpenFiles": [
+    "README.md",
+    "note.md",
     "data_storage/GMMC/GMMC_schema.sql",
     "data_storage/GMMC/GMMC_schema.md",
     "1_Inbox/Home.md",
@@ -240,7 +256,6 @@
     "SQL/ACID of Transactions.md",
     "SQL/MySql.md",
     "4_Engineering/Scaling databases.md",
-    "SQL/SQLite.md",
     "Databases",
     "SQL",
     "1_Inbox/Business",
