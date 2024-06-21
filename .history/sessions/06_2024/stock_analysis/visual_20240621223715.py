@@ -3,30 +3,16 @@ import seaborn as sns
 from matplotlib import style
 
 def plot_adjusted_close(df, ticker):
-    """
-    Plots the adjusted close price of a stock over time.
-    
-    Args:
-        df (pandas.DataFrame): The DataFrame containing the stock data.
-        ticker (str): The ticker symbol of the stock.
-    """
-    plt.figure(figsize=(10, 5))
+    plt.figure(figsize=(10,5))
     df['Adj Close'].plot()
     plt.title(f'Adjusted Close Price of {ticker}')
     plt.ylabel('Price', fontsize=14)
-    plt.xlabel('Date', fontsize=14)
+    plt.xlabel('Year', fontsize=14)
     plt.grid(which='major')
     plt.savefig(f'{ticker}/adjusted_close.png')
     plt.show()
 
 def plot_moving_average(df, ticker):
-    """
-    Plots the adjusted close price and its 100-day moving average of a stock over time.
-    
-    Args:
-        df (pandas.DataFrame): The DataFrame containing the stock data.
-        ticker (str): The ticker symbol of the stock.
-    """
     df["100ma"] = df["Adj Close"].rolling(window=100, min_periods=0).mean()
     df.dropna(inplace=True)
 
@@ -42,6 +28,8 @@ def plot_moving_average(df, ticker):
     plt.tight_layout()
     plt.savefig(f'{ticker}/moving_average.png')
     plt.show()
+
+
 
 def plot_volume(df, ticker):
     """
@@ -60,3 +48,4 @@ def plot_volume(df, ticker):
     plt.grid(True)
     plt.savefig(f'{ticker}/volume.png')
     plt.show()
+

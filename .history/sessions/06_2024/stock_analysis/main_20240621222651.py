@@ -15,30 +15,30 @@ end_date = datetime.datetime.now()
 # create a folder called by the ticker
 os.makedirs(ticker, exist_ok=True)
 
-# Get data
-df_yahoo = get_yahoo_data(tickers, start_date, end_date)
-# df_web_google = get_web_data("GOOGL", start_date, end_date)
-df=df_yahoo
+# # Get data
+# df_yahoo = get_yahoo_data(tickers, start_date, end_date)
+# # df_web_google = get_web_data("GOOGL", start_date, end_date)
+# df=df_yahoo
 
-# visuals
-plot_adjusted_close(df, ticker)
-plot_moving_average(df, ticker)
-plot_volume(df, ticker)
+# # visuals
+# plot_adjusted_close(df, ticker)
+# plot_moving_average(df, ticker)
+# plot_volume(df, ticker)
 
-#technical indicators
-df = add_bollinger_bands(df)
-plot_bollinger_bands(df, ticker)
+# #technical indicators
+# df = add_bollinger_bands(df)
+# plot_bollinger_bands(df, ticker)
 
-df = calculate_rsi(df)
-plot_rsi(df, ticker)
+# df = calculate_rsi(df)
+# plot_rsi(df, ticker)
 
-df = calculate_macd(df)
-plot_macd(df, ticker)
+# df = calculate_macd(df)
+# plot_macd(df, ticker)
 
 #fundamental
-# income_stmt, balance_sheet, cash_flow = fetch_financial_data(ticker)
+income_stmt, balance_sheet, cash_flow = fetch_financial_data(ticker)
 
-# needs to be fixed wrt above.
+# needs to be fixed.
 
 # balance_sheet
 # first_column_terms = balance_sheet.index
