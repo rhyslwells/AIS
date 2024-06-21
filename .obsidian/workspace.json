@@ -69,7 +69,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -198,12 +199,10 @@
       "command-palette:Open command palette": true,
       "audio-recorder:Start/stop recording": true,
       "workspaces:Manage workspace layouts": true,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-projects:Open projects": false,
-      "vscode-editor:Create Code File": false
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "07366f85dbecf014",
+  "active": "866e316afbba8c7b",
   "lastOpenFiles": [
     "data_storage/GMMC/GMMC_schema.sql",
     "data_storage/GMMC/GMMC_schema.md",
