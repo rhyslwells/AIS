@@ -4,8 +4,6 @@ from visual import plot_adjusted_close, plot_moving_average, plot_volume
 from technicals import add_bollinger_bands, plot_bollinger_bands, calculate_rsi, plot_rsi, calculate_macd, plot_macd
 from fundamental import fetch_financial_data, print_fundamental_metrics, plot_net_income, plot_assets_liabilities, calculate_ratios, print_ratios
 import yfinance as yf
-import os
-
 
 ticker = "VEOEY"
 tickers = [ticker]
@@ -13,6 +11,7 @@ start_date = "2023-01-01"
 end_date = datetime.datetime.now()
 
 # create a folder called by the ticker
+import os
 os.makedirs(ticker, exist_ok=True)
 
 # Get data
@@ -39,9 +38,9 @@ plot_macd(df, ticker)
 income_stmt, balance_sheet, cash_flow = fetch_financial_data(ticker)
 
 stock=yf.Ticker(ticker)
-plot_net_income(income_stmt, ticker)
-plot_assets_liabilities(balance_sheet, ticker)
-
 print_fundamental_metrics(stock, ticker)
+plot_net_income(income_stmt)
+plot_assets_liabilities(balance_sheet)
+
 current_ratio, quick_ratio, debt_to_equity_ratio, return_on_equity = calculate_ratios(balance_sheet, income_stmt)
 print_ratios(current_ratio, quick_ratio, debt_to_equity_ratio, return_on_equity)

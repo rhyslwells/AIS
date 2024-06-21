@@ -37,18 +37,15 @@ def print_ratios(current_ratio, quick_ratio, debt_to_equity_ratio, return_on_equ
     print(f"Debt to Equity Ratio: {debt_to_equity_ratio:.2f}")
     print(f"Return on Equity (ROE): {return_on_equity:.2f}")
 
-def plot_net_income(income_stmt,ticker):
-    income_stmt.loc['Net Income'].reset_index().set_index('Date').rename(columns={'index': 'Date'}).plot(kind='bar', figsize=(10, 5), title='Net Income')
+def plot_net_income(income_stmt):
+    income_stmt.loc['Net Income'].plot(kind='bar', figsize=(10, 5), title='Net Income')
     plt.xlabel('Date')
     plt.ylabel('Net Income')
-    plt.xticks(rotation=45)
-    plt.xticks(rotation_mode="anchor")
     plt.savefig(f'{ticker}/net_income.png')
     plt.show()
 
 
-
-def plot_assets_liabilities(balance_sheet,ticker):
+def plot_assets_liabilities(balance_sheet):
     fig, ax = plt.subplots(figsize=(10, 5))
     balance_sheet.loc['Total Assets'].plot(kind='bar', ax=ax, label='Total Assets')
     balance_sheet.loc['Total Liab'].plot(kind='bar', ax=ax, label='Total Liabilities', color='red')

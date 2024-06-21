@@ -9,7 +9,7 @@ def plot_adjusted_close(df, ticker):
     plt.ylabel('Price', fontsize=14)
     plt.xlabel('Year', fontsize=14)
     plt.grid(which='major')
-    plt.savefig(f'{ticker}/adjusted_close.png')
+    plt.savefig(f'{ticker}_adjusted_close.png')
     plt.show()
 
 def plot_moving_average(df, ticker):
@@ -26,10 +26,24 @@ def plot_moving_average(df, ticker):
     ax1.grid(which='major')
 
     plt.tight_layout()
-    plt.savefig(f'{ticker}/moving_average.png')
+    plt.savefig(f'{ticker}_moving_average.png')
     plt.show()
 
+def plot_comparison(df1, df2, ticker1,ticker2):
+    style.use('dark_background')
+    plt.figure(figsize=(10, 8))
 
+    plt.subplot(2, 1, 1)
+    sns.lineplot(x=df1.index, y=df1['Adj Close'], color='lemonchiffon')
+    plt.title(f'{ticker[0]} Stock Prices: 2017 to Present')
+
+    plt.subplot(2, 1, 2)
+    sns.lineplot(x=df2.index, y=df2['Adj Close'])
+    plt.title(f'{ticker[1]} Stock Prices: 2017 to Present')
+
+    plt.tight_layout()
+    plt.savefig(f'{ticker[0]}_{ticker[1]}_comparison.png')
+    plt.show()
 
 def plot_volume(df, ticker):
     """
@@ -46,6 +60,6 @@ def plot_volume(df, ticker):
     plt.ylabel('Volume')
     plt.legend()
     plt.grid(True)
-    plt.savefig(f'{ticker}/volume.png')
+    plt.savefig(f'{ticker}_volume.png')
     plt.show()
 

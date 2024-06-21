@@ -9,7 +9,7 @@ def plot_adjusted_close(df, ticker):
     plt.ylabel('Price', fontsize=14)
     plt.xlabel('Year', fontsize=14)
     plt.grid(which='major')
-    plt.savefig(f'{ticker}/adjusted_close.png')
+    plt.savefig(f'{ticker}/{ticker}_adjusted_close.png')
     plt.show()
 
 def plot_moving_average(df, ticker):
@@ -26,7 +26,7 @@ def plot_moving_average(df, ticker):
     ax1.grid(which='major')
 
     plt.tight_layout()
-    plt.savefig(f'{ticker}/moving_average.png')
+    plt.savefig(f'{ticker}\{ticker}_moving_average.png')
     plt.show()
 
 
@@ -46,6 +46,6 @@ def plot_volume(df, ticker):
     plt.ylabel('Volume')
     plt.legend()
     plt.grid(True)
-    plt.savefig(f'{ticker}/volume.png')
+    plt.savefig(f'{ticker}_volume.png')
     plt.show()
 
