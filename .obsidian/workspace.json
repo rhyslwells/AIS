@@ -11,8 +11,13 @@
             "id": "07366f85dbecf014",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -69,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,6 +95,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -151,7 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -160,6 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,6 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,10 +208,12 @@
       "command-palette:Open command palette": true,
       "audio-recorder:Start/stop recording": true,
       "workspaces:Manage workspace layouts": true,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-projects:Open projects": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "866e316afbba8c7b",
+  "active": "07366f85dbecf014",
   "lastOpenFiles": [
     "data_storage/GMMC/GMMC_schema.sql",
     "data_storage/GMMC/GMMC_schema.md",

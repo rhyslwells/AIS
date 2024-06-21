@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "GMMC_schema",
       "path": "data_storage/GMMC/GMMC_schema.sql"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "windows pip install",
       "path": "0_Archive/software/windows pip install.md"
-    },
-    {
-      "basename": "wedding",
-      "path": "0_Archive/wedding.md"
     }
   ],
   "omittedPaths": [],
