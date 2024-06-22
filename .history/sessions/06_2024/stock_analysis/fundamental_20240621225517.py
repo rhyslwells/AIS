@@ -46,7 +46,7 @@ def plot_net_income(income_stmt,ticker):
     plt.savefig(f'{ticker}/net_income.png')
     plt.show()
     
-
+#TODO fix fundamental metrics
 
 def plot_assets_liabilities(balance_sheet,ticker):
     fig, ax = plt.subplots(figsize=(10, 5))
