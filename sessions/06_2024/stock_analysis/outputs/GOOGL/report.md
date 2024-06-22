@@ -32,6 +32,8 @@ This plot shows the adjusted close price of a stock over time. The plot is desig
 
 
 ![Alt text](imgs/adjusted_close.png)
+<!-- pagebreak -->
+
 
 ### Moving Averages (50-day, 100-day, 200-day)
 
@@ -63,6 +65,8 @@ This plot shows the adjusted close price of a stock along with its 50-day, 100-d
 
 
 ![Alt text](imgs/moving_average.png)
+<!-- pagebreak -->
+
 
 ### Bollinger Bands
 
@@ -95,6 +99,8 @@ This plot displays the adjusted close price along with its Bollinger Bands. The 
    - **Position within Bands:** Indicates the strength or weakness of the current price relative to the high and low bands.
 
 ![Alt text](imgs/bollinger_bands.png)
+<!-- pagebreak -->
+
 
 ### MACD (Moving Average Convergence Divergence)
 
@@ -127,6 +133,8 @@ This plot shows the MACD line, MACD signal line, and MACD histogram (the differe
 
 
 ![Alt text](imgs/macd.png)
+<!-- pagebreak -->
+
 
 ### Relative Strength Index (RSI)
 
@@ -156,6 +164,8 @@ The RSI is a momentum oscillator that measures the speed and change of price mov
    - **Downward RSI Trend:** Indicates increasing momentum in the downward direction.
 
 ![Alt text](imgs/RSI.png)
+<!-- pagebreak -->
+
 
 ### Volume
 
@@ -188,6 +198,8 @@ This function generates a bar chart showing the trading volume of a stock over t
 
 
 ![Alt text](imgs/volume.png)
+<!-- pagebreak -->
+
 
 ## Fundamental Indicators (to be added later)
     
