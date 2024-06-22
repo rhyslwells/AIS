@@ -1,7 +1,6 @@
 import argparse
 import os
 import yfinance as yf
-import subprocess
 
 def get_args():
     """Parse and return command-line arguments."""
@@ -105,18 +104,10 @@ def main():
             print("Invalid input. Please enter y or n.")
 
     if not skip_pdf_generation:
-        md_path = os.path.join('outputs', ticker, 'report.md')
         pdf_path = os.path.join('outputs', ticker, 'report.pdf')
+        md_path = os.path.join('outputs', ticker, 'report.md')
 
-        try:
-            subprocess.run(['pandoc', md_path, '-o', pdf_path])
-            print(f"Report for {ticker} generated successfully!")
-        except FileNotFoundError:
-            print("Pandoc is not installed or executable.")
-        except subprocess.CalledProcessError as e:
-            print(f"Error occurred while generating PDF: {e}")
-    else:
-        print(f"Skipping PDF generation for {ticker}.")
+        subprocess.run(['pandoc', '-o', pdf_path, md_path])
 
     print(f"Report for {ticker} generated successfully!")
 

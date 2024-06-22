@@ -2,6 +2,7 @@ import argparse
 import os
 import yfinance as yf
 import subprocess
+import shutil
 
 def get_args():
     """Parse and return command-line arguments."""
@@ -108,6 +109,12 @@ def main():
         md_path = os.path.join('outputs', ticker, 'report.md')
         pdf_path = os.path.join('outputs', ticker, 'report.pdf')
 
+        # Copy 'imgs' directory to the same location as 'report.md'
+        imgs_dir = os.path.join('outputs', ticker, 'imgs')
+        if os.path.exists(imgs_dir):
+            shutil.rmtree(imgs_dir)  # Remove existing 'imgs' directory if present
+        shutil.copytree('imgs', imgs_dir)  # Copy 'imgs' directory
+
         try:
             subprocess.run(['pandoc', md_path, '-o', pdf_path])
             print(f"Report for {ticker} generated successfully!")
@@ -115,10 +122,12 @@ def main():
             print("Pandoc is not installed or executable.")
         except subprocess.CalledProcessError as e:
             print(f"Error occurred while generating PDF: {e}")
+
+        # Clean up: Remove copied 'imgs' directory
+        shutil.rmtree(imgs_dir)
+
     else:
         print(f"Skipping PDF generation for {ticker}.")
-
-    print(f"Report for {ticker} generated successfully!")
 
 if __name__ == "__main__":
     main()
