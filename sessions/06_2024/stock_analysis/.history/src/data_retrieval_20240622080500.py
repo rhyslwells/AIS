@@ -6,7 +6,7 @@ def get_yahoo_data(tickers, start_date, end_date):
     data = yf.download(tickers, start=start_date, end=end_date)
     data.reset_index(inplace=True)
     data.set_index("Date", inplace=True)
-    data.ffill(inplace=True)
+    data = data.fillna(method='ffill')
     return data
 
 def get_web_data(ticker, start_date, end_date):

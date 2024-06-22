@@ -14,39 +14,25 @@ def main(ticker, start_date):
     os.makedirs(f'outputs/{ticker}', exist_ok=True)
     os.makedirs(f'outputs/{ticker}/imgs', exist_ok=True)
 
-    # Get data
-    tickers = [ticker]
-    df_yahoo = get_yahoo_data(tickers, start_date, end_date)
-    df = df_yahoo
+    # # Get data
+    # tickers = [ticker]
+    # df_yahoo = get_yahoo_data(tickers, start_date, end_date)
+    # df = df_yahoo
 
-    # Visuals
-    plt=plot_adjusted_close(df, ticker)
-    plt.savefig(f'outputs/{ticker}/imgs/adjusted_close.png')
-    # plt.show()
-
-    plt=plot_moving_average(df, ticker)
-    plt.savefig(f'outputs/{ticker}/imgs/moving_average.png')
-    plt.show()
-
-    plt=plot_volume(df, ticker)
-    plt.savefig(f'outputs/{ticker}/imgs/volume.png')
-    plt.show()
+    # # Visuals
+    # plot_adjusted_close(df, ticker)
+    # plot_moving_average(df, ticker)
+    # plot_volume(df, ticker)
 
     # # Technical indicators
-    df = add_bollinger_bands(df)
-    plt=plot_bollinger_bands(df, ticker)
-    plt.savefig(f'outputs/{ticker}/bollinger_bands.png')
-    plt.show()
+    # df = add_bollinger_bands(df)
+    # plot_bollinger_bands(df, ticker)
 
-    df = calculate_rsi(df)
-    plt=plot_rsi(df, ticker)
-    plt.savefig(f'outputs/{ticker}/imgs/rsi.png')
-    plt.show()
+    # df = calculate_rsi(df)
+    # plot_rsi(df, ticker)
 
-    df = calculate_macd(df)
-    plt=plot_macd(df, ticker)
-    plt.savefig(f'outputs/{ticker}/imgs/macd.png')
-    plt.show()
+    # df = calculate_macd(df)
+    # plot_macd(df, ticker)
 
     # Fundamental
     # income_stmt, balance_sheet, cash_flow = fetch_financial_data(ticker)

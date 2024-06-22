@@ -39,10 +39,10 @@ def plot_moving_average(df, ticker):
     ax1.set_ylabel('Price', fontsize=14)
     ax1.legend()
     ax1.grid(which='major')
+
     plt.tight_layout()
-    return plt
-    # plt.savefig(f'{ticker}/imgs/moving_average.png')
-    # plt.show()
+    plt.savefig(f'{ticker}/imgs/moving_average.png')
+    plt.show()
 
 def plot_volume(df, ticker):
     """
@@ -59,6 +59,5 @@ def plot_volume(df, ticker):
     plt.ylabel('Volume')
     plt.legend()
     plt.grid(True)
-    # plt.savefig(f'{ticker}/imgs/volume.png')
-    # plt.show()
-    return plt
+    plt.savefig(f'{ticker}/imgs/volume.png')
+    plt.show()

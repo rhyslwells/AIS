@@ -52,9 +52,8 @@ def plot_bollinger_bands(df, ticker):
     ax1.grid(which='major')
 
     plt.tight_layout()
-    return plt
-    # plt.savefig(f'{ticker}/bollinger_bands.png')
-    # plt.show()
+    plt.savefig(f'{ticker}/bollinger_bands.png')
+    plt.show()
 
 def calculate_rsi(df):
     """
@@ -87,9 +86,8 @@ def plot_rsi(df, ticker):
     plt.ylabel('RSI', fontsize=14)
     plt.legend()
     plt.grid(True)
-    # plt.savefig(f'{ticker}/rsi.png')
-    # plt.show()
-    return plt
+    plt.savefig(f'{ticker}/rsi.png')
+    plt.show()
 
 def calculate_macd(df):
     """

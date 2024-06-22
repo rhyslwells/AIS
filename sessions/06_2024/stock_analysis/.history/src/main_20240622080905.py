@@ -32,6 +32,8 @@ def main(ticker, start_date):
     plt.savefig(f'outputs/{ticker}/imgs/volume.png')
     plt.show()
 
+
+
     # # Technical indicators
     df = add_bollinger_bands(df)
     plt=plot_bollinger_bands(df, ticker)
