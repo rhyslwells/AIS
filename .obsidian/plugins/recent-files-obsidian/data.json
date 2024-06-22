@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "schedule",
       "path": "docs/schedule.md"
     },
     {
       "basename": "note",
       "path": "note.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "GMMC_schema",

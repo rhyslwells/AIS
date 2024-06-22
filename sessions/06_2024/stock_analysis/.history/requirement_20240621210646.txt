@@ -7,4 +7,3 @@ matplotlib
 mplfinance
 seaborn
 ta
-s
