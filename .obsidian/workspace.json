@@ -230,6 +230,7 @@
   "active": "c1b62b58193264ce",
   "lastOpenFiles": [
     "sessions/06_2024/stock_analysis/outputs/GOOGL/report.pdf",
+    "sessions/06_2024/stock_analysis/outputs/GOOGL/report.md",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs/volume.png",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs/rsi.png",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs/moving_average.png",
@@ -237,7 +238,6 @@
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs/bollinger_bands.png",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs/adjusted_close.png",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs",
-    "sessions/06_2024/stock_analysis/outputs/GOOGL/report.md",
     "sessions/06_2024/stock_analysis/requirements.txt",
     "sessions/06_2024/stock_analysis/venv/Scripts/deactivate.bat",
     "sessions/06_2024/stock_analysis/venv/Scripts/activate.bat",
