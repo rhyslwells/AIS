@@ -86,7 +86,7 @@ def mrk_pdf_converter(ticker):
             md_path,
             '-o', pdf_path,
             '--resource-path', resource_path,
-            '--variable', 'geometry:margin=1cm',  # Set minimal margins
+            '--variable', 'geometry:margin=0pt',  # Set minimal margins
             '--pdf-engine=pdflatex'  # Use pdflatex for better control over PDF output
         ]
 
