@@ -1,0 +1,3 @@
+pandoc report.md -o report.html --toc
+
+pandoc report.html -o report.pdf

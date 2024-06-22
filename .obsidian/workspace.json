@@ -229,6 +229,8 @@
   },
   "active": "c1b62b58193264ce",
   "lastOpenFiles": [
+    "sessions/06_2024/stock_analysis/outputs/GOOGL/report.html",
+    "sessions/06_2024/stock_analysis/template/pandoc.txt",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/report.pdf",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/report.md",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs/volume.png",
@@ -245,7 +247,6 @@
     "sessions/06_2024/stock_analysis/venv/Scripts/activate",
     "sessions/06_2024/stock_analysis/venv/Lib/site-packages/pip-22.2.2.dist-info/REQUESTED",
     "sessions/06_2024/stock_analysis/venv/Lib/site-packages/pip-22.2.2.dist-info/INSTALLER",
-    "sessions/06_2024/stock_analysis/venv/Scripts/pip3.10.exe",
     "sessions/06_2024/stock_analysis/VEOEY/README.md",
     "sessions/06_2024/stock_analysis/VEOEY/net_income.png",
     "sessions/06_2024/stock_analysis/VEOEY/macd.png",

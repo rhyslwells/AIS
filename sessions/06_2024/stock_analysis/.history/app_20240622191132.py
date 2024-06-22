@@ -47,35 +47,30 @@ def generate_markdown_report(ticker):
 
 {price_content}
 ![Alt text](imgs/adjusted_close.png)
-
-<!-- pagebreak -->
+---
 
 {moving_average_content}
 ![Alt text](imgs/moving_average.png)
-
 <!-- pagebreak -->
+
 
 {bollinger_bands_content}
 ![Alt text](imgs/bollinger_bands.png)
-
 <!-- pagebreak -->
 
 
 {macd_content}
 ![Alt text](imgs/macd.png)
-
 <!-- pagebreak -->
 
 
 {rsi_content}
 ![Alt text](imgs/RSI.png)
-
 <!-- pagebreak -->
 
 
 {volume_content}
 ![Alt text](imgs/volume.png)
-
 <!-- pagebreak -->
 
 
