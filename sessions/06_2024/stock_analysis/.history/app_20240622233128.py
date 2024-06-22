@@ -3,11 +3,27 @@ import os
 import yfinance as yf
 import subprocess
 
-def read_template(file_path):
-    """Read the content from a markdown template file."""
-    # file_path=f'template/markdown/{comp}.md'
-    with open(file_path, 'r') as file:
-        return file.read()
+# def get_args():
+#     """Parse and return command-line arguments."""
+#     parser = argparse.ArgumentParser(description='Analyze a stock and generate a markdown report.')
+#     parser.add_argument('ticker', type=str, help='The stock ticker to analyze, e.g. GOOGL', nargs='?')
+#     args = parser.parse_args()
+    
+#     if not args.ticker:
+#         args.ticker = input("Enter a stock ticker (e.g. GOOGL): ")
+#         if not args.ticker:
+#             args.ticker = 'GOOGL'
+    
+#     return args.ticker
+
+# def get_start_date():
+#     """Prompt the user for a start date and return it."""
+#     start_date = input("Enter a start date (YYYY-MM-DD) (e.g. 2023-01-01): ")
+
+#     if not start_date:
+#         start_date = '2023-01-01'
+
+#     return start_date
 
 def mrk_pdf_converter(ticker):
     """Convert markdown report to PDF using Pandoc."""
@@ -92,7 +108,7 @@ def main():
     """Main function to execute the script."""
     ticker, start_date, components = get_user_input()
 
-    skip_main = input("Skip generating component plots? (y/n): ").strip().lower() == 'y'
+    skip_main = input("Skip main.py? (y/n): ").strip().lower() == 'y'
     if not skip_main:
         os.system(f"python src/main.py {ticker} {start_date}")
 
