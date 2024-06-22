@@ -111,6 +111,7 @@ def generate_markdown_report(ticker):
         file.write(markdown_content)
 
 
+
 def main():
     """Main function to execute the script."""
     ticker = get_args()
