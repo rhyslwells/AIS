@@ -42,28 +42,37 @@ def generate_markdown_report(ticker):
         volume_content = file.read()
 
     # Generate the markdown content
-    markdown_content =f"""
+    markdown_content = f"""
+                ## Price
 
-{price_content}
-![Alt text](outputs/{ticker}/imgs/adjusted_close.png)
+                {price_content}
 
-{moving_average_content}
-![Alt text](outputs/{ticker}/imgs/moving_average.png)
+                ![Alt text](outputs/{ticker}/imgs/adjusted_close.png)
 
-{bollinger_bands_content}
-![Alt text](outputs/{ticker}/imgs/bollinger_bands.png)
+                ## Technical Indicators
 
-{macd_content}
-![Alt text](outputs/{ticker}/imgs/macd.png)
+                {moving_average_content}
 
-{rsi_content}
-![Alt text](outputs/{ticker}/imgs/RSI.png)
+                ![Alt text](outputs/{ticker}/imgs/moving_average.png)
 
-{volume_content}
-![Alt text](outputs/{ticker}/imgs/volume.png)
+                {bollinger_bands_content}
 
-## Fundamental Indicators (to be added later)
-    """
+                ![Alt text](outputs/{ticker}/imgs/bollinger_bands.png)
+
+                {macd_content}
+
+                ![Alt text](outputs/{ticker}/imgs/macd.png)
+
+                {rsi_content}
+
+                ![Alt text](outputs/{ticker}/imgs/RSI.png)
+
+                {volume_content}
+
+                ![Alt text](outputs/{ticker}/imgs/volume.png)
+
+                ## Fundamental Indicators (to be added later)
+                """
     # Save markdown content to file
 
 
@@ -76,35 +85,14 @@ def main():
     ticker = get_args()
     start_date = get_start_date()
 
-    skip_main = False
-    while True:
-        choice = input("Skip main.py? (y/n): ")
-        if choice.lower() == "y":
-            skip_main = True
-            break
-        elif choice.lower() == "n":
-            break
-        else:
-            print("Invalid input. Please enter y or n.")
+    # Run src/main.py to generate the images for the main report
+    os.system(f"python src/main.py {ticker} {start_date}")
 
-    if not skip_main:
-        os.system(f"python src/main.py {ticker} {start_date}")
-
+    # Generate the markdown report
     generate_markdown_report(ticker)
 
-    skip_pdf_generation = False
-    while True:
-        choice = input("Skip PDF generation? (y/n): ")
-        if choice.lower() == "y":
-            skip_pdf_generation = True
-            break
-        elif choice.lower() == "n":
-            break
-        else:
-            print("Invalid input. Please enter y or n.")
-
-    if not skip_pdf_generation:
-        os.system(f"pandoc -o outputs/{ticker}/report.pdf outputs/{ticker}/report.md")
+    # convert markdown to pdf
+    os.system(f"pandoc -o outputs/{ticker}/report.pdf outputs/{ticker}/report.md")
 
     print(f"Report for {ticker} generated successfully!")
 

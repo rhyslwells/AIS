@@ -44,25 +44,31 @@ def generate_markdown_report(ticker):
     # Generate the markdown content
     markdown_content =f"""
 
-{price_content}
-![Alt text](outputs/{ticker}/imgs/adjusted_close.png)
+    {price_content}
 
-{moving_average_content}
-![Alt text](outputs/{ticker}/imgs/moving_average.png)
+    ![Alt text](outputs/{ticker}/imgs/adjusted_close.png)
 
-{bollinger_bands_content}
-![Alt text](outputs/{ticker}/imgs/bollinger_bands.png)
+    {moving_average_content}
 
-{macd_content}
-![Alt text](outputs/{ticker}/imgs/macd.png)
+    ![Alt text](outputs/{ticker}/imgs/moving_average.png)
 
-{rsi_content}
-![Alt text](outputs/{ticker}/imgs/RSI.png)
+    {bollinger_bands_content}
 
-{volume_content}
-![Alt text](outputs/{ticker}/imgs/volume.png)
+    ![Alt text](outputs/{ticker}/imgs/bollinger_bands.png)
 
-## Fundamental Indicators (to be added later)
+    {macd_content}
+
+    ![Alt text](outputs/{ticker}/imgs/macd.png)
+
+    {rsi_content}
+
+    ![Alt text](outputs/{ticker}/imgs/RSI.png)
+
+    {volume_content}
+
+    ![Alt text](outputs/{ticker}/imgs/volume.png)
+
+    ## Fundamental Indicators (to be added later)
     """
     # Save markdown content to file
 
