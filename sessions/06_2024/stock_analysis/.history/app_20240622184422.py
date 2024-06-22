@@ -79,7 +79,7 @@ def mrk_pdf_converter(ticker):
             # Specify the resource path for Pandoc
             resource_path = os.path.join('outputs', ticker)
             subprocess.run(['pandoc', md_path, '-o', pdf_path, '--resource-path', resource_path])
-            print(f"Report in markdown for {ticker} converted to pdf.")
+            print(f"Report for {ticker} generated successfully!")
         except FileNotFoundError:
             print("Pandoc is not installed or executable.")
         except subprocess.CalledProcessError as e:
