@@ -24,12 +24,8 @@ def mrk_pdf_converter(ticker):
             md_path,
             '-o', pdf_path,
             '--resource-path', resource_path,
-            '--variable', 'geometry:margin=1.2cm',  # Set minimal margins
-            '--variable', 'fontsize=11pt',  # Set font size
-            # '--variable', 'linestretch=1.5',  # Set line spacing
-            '--pdf-engine=pdflatex',  # Use pdflatex for better control over PDF output
-            '--highlight-style', 'tango',  # Syntax highlighting style for code blocks
-            # '--template', custom_template_path  # Use a custom LaTeX template
+            '--variable', 'geometry:margin=1cm',  # Set minimal margins
+            '--pdf-engine=pdflatex'  # Use pdflatex for better control over PDF output
         ]
 
         subprocess.run(pandoc_options)
@@ -43,12 +39,12 @@ def generate_markdown_report(ticker, components):
     """Generate the markdown report for the given ticker with specified components."""
     # Dictionary mapping component names to their template file paths
     templates = {
-        'price': ('template/markdown/price.md', '![Adjusted Close](imgs/adjusted_close.png)'),
-        'volume': ('template/markdown/volume.md', '![Volume](imgs/volume.png)'),
-        'moving_average': ('template/markdown/moving_average.md', '![Moving Average](imgs/moving_average.png)'),
-        'bollinger_bands': ('template/markdown/bollinger_bands.md', '![Bollinger Bands](imgs/bollinger_bands.png)'),
-        'macd': ('template/markdown/macd.md', '![MACD](imgs/macd.png)'),
-        'rsi': ('template/markdown/RSI.md', '![RSI](imgs/RSI.png)')
+        'price': ('template/markdown/price.md', '![Alt text](imgs/adjusted_close.png)'),
+        'volume': ('template/markdown/volume.md', '![Alt text](imgs/volume.png)'),
+        'moving_average': ('template/markdown/moving_average.md', '![Alt text](imgs/moving_average.png)'),
+        'bollinger_bands': ('template/markdown/bollinger_bands.md', '![Alt text](imgs/bollinger_bands.png)'),
+        'macd': ('template/markdown/macd.md', '![Alt text](imgs/macd.png)'),
+        'rsi': ('template/markdown/RSI.md', '![Alt text](imgs/RSI.png)')
     }
 
     # Generate the markdown content

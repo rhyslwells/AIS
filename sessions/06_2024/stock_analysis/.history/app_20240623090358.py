@@ -24,12 +24,8 @@ def mrk_pdf_converter(ticker):
             md_path,
             '-o', pdf_path,
             '--resource-path', resource_path,
-            '--variable', 'geometry:margin=1.2cm',  # Set minimal margins
-            '--variable', 'fontsize=11pt',  # Set font size
-            # '--variable', 'linestretch=1.5',  # Set line spacing
-            '--pdf-engine=pdflatex',  # Use pdflatex for better control over PDF output
-            '--highlight-style', 'tango',  # Syntax highlighting style for code blocks
-            # '--template', custom_template_path  # Use a custom LaTeX template
+            '--variable', 'geometry:margin=1cm',  # Set minimal margins
+            '--pdf-engine=pdflatex'  # Use pdflatex for better control over PDF output
         ]
 
         subprocess.run(pandoc_options)

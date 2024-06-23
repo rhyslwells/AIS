@@ -1,0 +1,15 @@
+pandoc report.md -o report.html --toc
+
+pandoc report.html -o report.pdf
+
+# Additional options for minimal margins and full page
+pandoc_options = [
+    'pandoc',
+    md_path,
+    '-o', pdf_path,
+    '--resource-path', resource_path,
+    '--variable', 'geometry:margin=1cm',  # Set minimal margins
+    '--pdf-engine=pdflatex'  # Use pdflatex for better control over PDF output
+]
+
+subprocess.run(pandoc_options)

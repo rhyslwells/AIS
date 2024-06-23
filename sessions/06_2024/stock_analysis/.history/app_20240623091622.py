@@ -24,7 +24,7 @@ def mrk_pdf_converter(ticker):
             md_path,
             '-o', pdf_path,
             '--resource-path', resource_path,
-            '--variable', 'geometry:margin=1.2cm',  # Set minimal margins
+            '--variable', 'geometry:margin=1.5cm',  # Set minimal margins
             '--variable', 'fontsize=11pt',  # Set font size
             # '--variable', 'linestretch=1.5',  # Set line spacing
             '--pdf-engine=pdflatex',  # Use pdflatex for better control over PDF output
