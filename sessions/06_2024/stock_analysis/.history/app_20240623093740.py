@@ -113,7 +113,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# APPL <- no price data
+# APPL
 # GOOGL
 # VEOEY
 # JPM
