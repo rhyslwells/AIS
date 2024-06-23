@@ -34,4 +34,69 @@ This plot shows the adjusted close price of a stock over time. The plot is desig
 
 <!-- pagebreak -->
 
+### MACD (Moving Average Convergence Divergence)
+
+**Description:** 
+
+This plot shows the MACD line, MACD signal line, and MACD histogram (the difference between the two lines). The plot is designed to help:
+
+   - Visualize the relationship between two moving averages.
+   - Identify potential trading signals derived from MACD crossovers and divergence patterns.
+   - Monitor the histogram for changes in momentum.
+
+**What to Look For:**
+
+1. **MACD Line and Signal Line Crossovers:**
+   - **Bullish Crossover:** When the MACD line crosses above the signal line, it suggests a potential buy signal.
+   - **Bearish Crossover:** When the MACD line crosses below the signal line, it suggests a potential sell signal.
+
+2. **MACD Histogram:**
+   - **Positive Histogram:** Indicates the MACD line is above the signal line, suggesting bullish momentum.
+   - **Negative Histogram:** Indicates the MACD line is below the signal line, suggesting bearish momentum.
+   - **Histogram Peaks and Troughs:** Changes in the height of the histogram can indicate the strength of the momentum. For example, a decreasing positive histogram might indicate weakening bullish momentum.
+
+3. **Divergence Patterns:**
+   - **Bullish Divergence:** When the price makes lower lows but the MACD makes higher lows, it suggests a potential reversal to the upside.
+   - **Bearish Divergence:** When the price makes higher highs but the MACD makes lower highs, it suggests a potential reversal to the downside.
+
+4. **MACD Line Crossing Zero:**
+   - **Crossing Above Zero:** Indicates the start of a bullish trend.
+   - **Crossing Below Zero:** Indicates the start of a bearish trend.
+
+
+![Alt text](imgs/macd.png)
+
+<!-- pagebreak -->
+
+### Relative Strength Index (RSI)
+
+**Description:** 
+
+The RSI is a momentum oscillator that measures the speed and change of price movements. The plot includes horizontal lines at RSI levels of 70 (overbought) and 30 (oversold) to indicate potential reversal zones. This visualization helps:
+
+   - Identify overbought or oversold conditions in the market.
+   - Predict potential trend reversals based on RSI signals.
+
+**What to Look For:**
+
+1. **RSI Levels:**
+   - **Above 70 (Overbought):** Indicates that the stock may be overbought, suggesting a potential sell signal or trend reversal.
+   - **Below 30 (Oversold):** Indicates that the stock may be oversold, suggesting a potential buy signal or trend reversal.
+
+2. **RSI Divergence:**
+   - **Bullish Divergence:** When the stock price makes a new low but the RSI makes a higher low, it can indicate a potential upward reversal.
+   - **Bearish Divergence:** When the stock price makes a new high but the RSI makes a lower high, it can indicate a potential downward reversal.
+
+3. **RSI Crossovers:**
+   - **Crossing Above 30:** Can indicate a bullish signal, suggesting the stock is exiting oversold conditions.
+   - **Crossing Below 70:** Can indicate a bearish signal, suggesting the stock is exiting overbought conditions.
+
+4. **RSI Trends:**
+   - **Upward RSI Trend:** Indicates increasing momentum in the upward direction.
+   - **Downward RSI Trend:** Indicates increasing momentum in the downward direction.
+
+![Alt text](imgs/RSI.png)
+
+<!-- pagebreak -->
+
 ## Fundamental Indicators (to be added later)
