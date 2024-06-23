@@ -1,5 +1,4 @@
 
-
 ### Adjusted Close Price
 
 **Description:** 
@@ -35,74 +34,6 @@ This plot shows the adjusted close price of a stock over time. The plot is desig
 
 <!-- pagebreak -->
 
-### Moving Averages (50-day, 100-day, 200-day)
-
-**Description:** 
-
-This plot shows the adjusted close price of a stock along with its 50-day, 100-day, and 200-day moving averages. The plot is designed to help:
-
-   - Visualize the long-term trend of the stock price.
-   - Smooth out short-term fluctuations to identify underlying trends.
-
-**What to Look For:**
-
-1. **Moving Averages:**
-   - **50-day Moving Average (50 MA):** Short-term trend indicator. It is more responsive to recent price changes and can signal shorter-term trends.
-   - **100-day Moving Average (100 MA):** Medium-term trend indicator. It balances sensitivity and stability, providing a clearer picture of the trend compared to the 50 MA.
-   - **200-day Moving Average (200 MA):** Long-term trend indicator. It is less responsive to short-term price movements, highlighting the overarching trend.
-
-2. **Price Crossing Moving Averages:**
-   - **Price Above Moving Average:** Indicates a bullish trend. The stock is trading above its average price over the specified period.
-   - **Price Below Moving Average:** Indicates a bearish trend. The stock is trading below its average price over the specified period.
-
-3. **Moving Average Crossovers:**
-   - **Golden Cross:** When a shorter-term moving average (e.g., 50 MA) crosses above a longer-term moving average (e.g., 200 MA), it suggests a bullish signal.
-   - **Death Cross:** When a shorter-term moving average crosses below a longer-term moving average, it suggests a bearish signal.
-
-4. **Moving Average Slope:**
-   - **Upward Slope:** Indicates an uptrend in the stock price.
-   - **Downward Slope:** Indicates a downtrend in the stock price.
-
-
-![Alt text](imgs/moving_average.png)
-
-<!-- pagebreak -->
-
-### Bollinger Bands
-
-**Description:** 
-
-This plot displays the adjusted close price along with its Bollinger Bands. The plot is designed to help:
-
-   - Visualize price volatility and identify potential breakout points in trading.
-   - Identify potential reversal points based on Bollinger Bands principles.
-
-**What to Look For:**
-
-1. **Price Touching Bands:**
-   - **Upper Band:** Indicates overbought conditions; potential for a reversal or pullback.
-   - **Lower Band:** Indicates oversold conditions; potential for a reversal or upward movement.
-
-2. **Band Width:**
-   - **Narrowing Bands (Squeeze):** Low volatility; potential for a sharp price movement (breakout).
-   - **Widening Bands:** High volatility; often seen during strong trends.
-
-3. **Price Moving Along Bands:**
-   - **Upper Band:** Continuous movement indicates strong upward momentum.
-   - **Lower Band:** Continuous movement indicates strong downward momentum.
-
-4. **Band Indicators and Signals:**
-   - **Band Crossovers:** Crossing above the middle band indicates a bullish trend; crossing below indicates a bearish trend.
-   - **Divergence:** Difference between price movement and band indicators suggests potential trend reversals.
-
-5. **Percentage Bands:**
-   - **Position within Bands:** Indicates the strength or weakness of the current price relative to the high and low bands.
-
-![Alt text](imgs/bollinger_bands.png)
-
-<!-- pagebreak -->
-
-
 ### MACD (Moving Average Convergence Divergence)
 
 **Description:** 
@@ -137,7 +68,6 @@ This plot shows the MACD line, MACD signal line, and MACD histogram (the differe
 
 <!-- pagebreak -->
 
-
 ### Relative Strength Index (RSI)
 
 **Description:** 
@@ -169,41 +99,4 @@ The RSI is a momentum oscillator that measures the speed and change of price mov
 
 <!-- pagebreak -->
 
-
-### Volume
-
-**Description:** 
-
-This function generates a bar chart showing the trading volume of a stock over time. The plot is designed to help:
-
-   - Visualize the trading activity and liquidity of the stock.
-   - Understand the intensity of trading over different periods.
-   - Use volume spikes to identify periods of significant trading activity and potential price movement.
-
-**What to Look For:**
-
-1. **Volume Spikes:**
-   - **High Volume:** Indicates increased trading activity, often associated with significant news, events, or market interest.
-   - **Low Volume:** Indicates decreased trading activity, suggesting lower interest or market inactivity.
-
-2. **Volume Trends:**
-   - **Increasing Volume Trend:** Suggests growing interest and potentially stronger price movements.
-   - **Decreasing Volume Trend:** Suggests waning interest and potentially weaker price movements.
-
-3. **Volume and Price Movement:**
-   - **High Volume with Price Increase:** Confirms a bullish trend, as increased buying drives the price up.
-   - **High Volume with Price Decrease:** Confirms a bearish trend, as increased selling drives the price down.
-   - **Low Volume with Price Movement:** Suggests a lack of conviction behind the price movement, which may not be sustainable.
-
-4. **Volume as Confirmation:**
-   - **Support and Resistance Levels:** Volume can confirm breakouts or breakdowns at key price levels. Higher volume at these levels strengthens the validity of the breakout or breakdown.
-   - **Trend Reversals:** Sharp changes in volume can precede or confirm trend reversals.
-
-
-![Alt text](imgs/volume.png)
-
-<!-- pagebreak -->
-
-
 ## Fundamental Indicators (to be added later)
-    

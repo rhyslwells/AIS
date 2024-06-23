@@ -3,11 +3,27 @@ import os
 import yfinance as yf
 import subprocess
 
-def read_template(file_path):
-    """Read the content from a markdown template file."""
-    # file_path=f'template/markdown/{comp}.md'
-    with open(file_path, 'r') as file:
-        return file.read()
+def get_args():
+    """Parse and return command-line arguments."""
+    parser = argparse.ArgumentParser(description='Analyze a stock and generate a markdown report.')
+    parser.add_argument('ticker', type=str, help='The stock ticker to analyze, e.g. GOOGL', nargs='?')
+    args = parser.parse_args()
+    
+    if not args.ticker:
+        args.ticker = input("Enter a stock ticker (e.g. GOOGL): ")
+        if not args.ticker:
+            args.ticker = 'GOOGL'
+    
+    return args.ticker
+
+def get_start_date():
+    """Prompt the user for a start date and return it."""
+    start_date = input("Enter a start date (YYYY-MM-DD) (e.g. 2023-01-01): ")
+
+    if not start_date:
+        start_date = '2023-01-01'
+
+    return start_date
 
 def mrk_pdf_converter(ticker):
     """Convert markdown report to PDF using Pandoc."""
@@ -64,35 +80,14 @@ def generate_markdown_report(ticker, components):
         file.write(markdown_content)
 
 
-def get_user_input():
-    """Prompt the user for the ticker and components to include in the report."""
-    default_ticker = "GOOGL"
-    default_start_date = "2023-01-01"
-    valid_components = ['price', 'volume', 'moving_average', 'bollinger_bands', 'macd', 'rsi']
-
-    ticker = input(f"Enter the ticker symbol for the report (default: {default_ticker}): ").strip() or default_ticker
-    start_date = input(f"Enter start date (YYYY-MM-DD, default: {default_start_date}): ").strip() or default_start_date
-    
-    print("Enter the components to include in the report (separated by commas):")
-    print("Valid components: price, volume, moving_average, bollinger_bands, macd, rsi")
-    components_input = input("Components (default: all): ").strip()
-    
-    if components_input:
-        components = [component.strip() for component in components_input.split(',') if component.strip() in valid_components]
-    else:
-        components = valid_components
-
-    if not components:
-        print("No valid components selected. Using default components.")
-        components = valid_components
-    
-    return ticker, start_date, components
-
 def main():
     """Main function to execute the script."""
-    ticker, start_date, components = get_user_input()
+    args = get_args()
+    ticker = args.ticker
+    components = args.components
+    start_date = get_start_date()
 
-    skip_main = input("Skip generating component plots? (y/n): ").strip().lower() == 'y'
+    skip_main = input("Skip main.py? (y/n): ").strip().lower() == 'y'
     if not skip_main:
         os.system(f"python src/main.py {ticker} {start_date}")
 
@@ -108,3 +103,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

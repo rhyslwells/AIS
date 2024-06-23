@@ -3,9 +3,9 @@ import os
 import yfinance as yf
 import subprocess
 
-def read_template(file_path):
+def read_template(comp):
     """Read the content from a markdown template file."""
-    # file_path=f'template/markdown/{comp}.md'
+    file_path=f'template/markdown/{comp}.md'
     with open(file_path, 'r') as file:
         return file.read()
 
