@@ -65,9 +65,7 @@ def generate_markdown_report(ticker, components):
     markdown_content += "\n## Fundamental Indicators (to be added later)\n"
 
     # Save markdown content to file
-    mrk=f"{ticker}_report.md"
-
-    output_path = f'outputs/{ticker}/{mrk}'
+    output_path = f'outputs/{ticker}/report.md'
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     with open(output_path, 'w') as file:
         file.write(markdown_content)
