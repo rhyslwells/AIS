@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "07366f85dbecf014",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "628ab8fa6a7d5d70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/schedule.md",
+                "file": "note.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5b13eed461f71e5a",
@@ -109,7 +96,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "note.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -171,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "note.md"
               }
             }
           },
@@ -181,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,8 +214,9 @@
       "vscode-editor:Create Code File": false
     }
   },
-  "active": "c1b62b58193264ce",
+  "active": "628ab8fa6a7d5d70",
   "lastOpenFiles": [
+    "README.md",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/report.html",
     "sessions/06_2024/stock_analysis/template/pandoc.txt",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/report.pdf",
@@ -246,14 +234,12 @@
     "sessions/06_2024/stock_analysis/venv/Scripts/Activate.ps1",
     "sessions/06_2024/stock_analysis/venv/Scripts/activate",
     "sessions/06_2024/stock_analysis/venv/Lib/site-packages/pip-22.2.2.dist-info/REQUESTED",
-    "sessions/06_2024/stock_analysis/venv/Lib/site-packages/pip-22.2.2.dist-info/INSTALLER",
     "sessions/06_2024/stock_analysis/VEOEY/README.md",
     "sessions/06_2024/stock_analysis/VEOEY/net_income.png",
     "sessions/06_2024/stock_analysis/VEOEY/macd.png",
     "sessions/06_2024/stock_analysis/VEOEY/rsi.png",
     "sessions/06_2024/stock_analysis/VEOEY/bollinger_bands.png",
     "note.md",
-    "README.md",
     "data_storage/GMMC/GMMC_schema.md",
     "1_Inbox/Home.md",
     "Recruiter Naomi.md",
