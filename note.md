@@ -18,12 +18,52 @@ Portfolio total return
 How is the portfolio weighted.
 number of shares, share price at time,
 
+What weighting should i have for my portfolio?
 
 ### ipynb 9
 
 beta - relation of investment and market
 capital assest pricing model
 alpha
+
+
+### ipynb 10
+
+Forcasting: methods
+
+AutoRegressive Integrated Moving Average (ARIMA) is the basis for many other models. It focuses on trying to fit the data as well as possible by examining differences between values instead of the values themselves.
+
+ARIMA works very well when data values have a clear trend and seasonality. We can only make predictions based on the data we have. Any outside effects not in the data can't be used to make predictions. For example we could make predictions on stock prices, but since we don't know when a recession may occur that event can't be modeled.
+
+There is a seasonal (SARIMA) and a non-seasonal ARIMA. There is also SARIMAX which focuses on exogenous, or external factors. It differs from ARIMA in that it has a set of parameters (P, D, and Q) that focus on seasonality.
+
+AR (Autoregressions) refers to a model that regresses based on prior values.
+
+### technical 2
+
+expo moving average:
+A EMA allows you to see the big picture when analyzing a stock. Unlike the Simple Moving Average it reduces the lag by putting more emphasis on recent price data.
+
+
+The MACD helps us to see buy & sell signals. It shows the difference between 2 moving averages.
+
+While these signals are derived from moving averages they occur much more quickly then with moving averages. It is important to know that since the signals occur earlier that they are also more risky.
+
+When the signal line crosses the MACD line moving upwards this is bullish and vice versa. The slope of the angle tells you how strong the trend is.
+
+More interesting macd <---- replace whats in techincals.py
+
+### technicals 3
+
+The RSI is used to determine if a security is overbought or oversold. With them you can take advantage of potential changes in trend. The 2 most commonly used oscillators are the RSI and Stochastic RSI.
+
+The RSI focuses on the deviation of upward and downward averages with values between 0 and 100. The RSI normally uses 9, 14 or 25 sessions which means it is used mainly as a short term analysis tool. A 14 session period is the most commonly used. When used with 9 sessions 0 to 20 is oversold and 80 to 100 is overbought. With 14 values over 70 are considered overbought and those below 30 oversold. When using 25 over 65 are considered overbought and those below 35 oversold.
+
+This indicator is most commonly used with other indicators.
+
+### technical 4
+
+
 
 ### To be cleaned
 
