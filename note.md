@@ -1,3 +1,7 @@
+# Notes
+
+- [ ] start tech 8
+
 ### ipynb 6
 
 Need a list of stocks and sectors information and a way to search them.
@@ -62,6 +66,16 @@ The RSI focuses on the deviation of upward and downward averages with values bet
 This indicator is most commonly used with other indicators.
 
 ### technical 4
+
+Cumulative returns of a selection of stocks.
+
+### technical 6
+
+add columns to a df for a stock moving averate, returns...volumes
+
+### tech 7
+
+cumulative return ascending for a portfolio/sector
 
 
 
