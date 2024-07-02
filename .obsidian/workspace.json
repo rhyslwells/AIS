@@ -8,19 +8,46 @@
         "type": "tabs",
         "children": [
           {
-            "id": "628ab8fa6a7d5d70",
+            "id": "a509215cc1dd121a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note.md",
+                "file": "docs/drafting/Bollinger bands.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ce455f155ac0a81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/drafting/Moving averages.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b59a0813f0957d9c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/templates/Topic.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 209.50198364257812
   },
   "right": {
     "id": "5b13eed461f71e5a",
@@ -95,7 +122,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "note.md",
+                "file": "docs/drafting/Moving averages.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -157,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note.md"
+                "file": "docs/drafting/Moving averages.md"
               }
             }
           },
@@ -167,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note.md",
+                "file": "docs/drafting/Moving averages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note.md",
+                "file": "docs/drafting/Moving averages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,12 +237,24 @@
       "workspaces:Manage workspace layouts": true,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-projects:Open projects": false,
-      "vscode-editor:Create Code File": false
+      "vscode-editor:Create Code File": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "628ab8fa6a7d5d70",
+  "active": "8ce455f155ac0a81",
   "lastOpenFiles": [
+    "docs/drafting/Bollinger bands.md",
     "README.md",
+    "docs/templates/Topic.md",
+    "docs/drafting/Moving averages.md",
+    "docs/drafting/Schedule.md",
+    "sessions/stock_analysis_report/template/markdown/bollinger_bands.md",
+    "docs/Ideas.md",
+    "docs/drafting/Prompts.md",
+    "docs/imgs",
+    "docs/drafting/note.md",
+    "docs/drafting",
+    "docs/templates",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/report.html",
     "sessions/06_2024/stock_analysis/template/pandoc.txt",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/report.pdf",
@@ -230,15 +269,11 @@
     "sessions/06_2024/stock_analysis/requirements.txt",
     "sessions/06_2024/stock_analysis/venv/Scripts/deactivate.bat",
     "sessions/06_2024/stock_analysis/venv/Scripts/activate.bat",
-    "sessions/06_2024/stock_analysis/venv/Scripts/Activate.ps1",
-    "sessions/06_2024/stock_analysis/venv/Scripts/activate",
-    "sessions/06_2024/stock_analysis/venv/Lib/site-packages/pip-22.2.2.dist-info/REQUESTED",
     "sessions/06_2024/stock_analysis/VEOEY/README.md",
     "sessions/06_2024/stock_analysis/VEOEY/net_income.png",
     "sessions/06_2024/stock_analysis/VEOEY/macd.png",
     "sessions/06_2024/stock_analysis/VEOEY/rsi.png",
     "sessions/06_2024/stock_analysis/VEOEY/bollinger_bands.png",
-    "note.md",
     "data_storage/GMMC/GMMC_schema.md",
     "1_Inbox/Home.md",
     "Recruiter Naomi.md",
@@ -254,12 +289,6 @@
     "Microsoft access.md",
     "2_Projects/Todos obsidian.md",
     "3_Tray/Kaggle Abalone regression.md",
-    "4_Engineering/ETL.md",
-    "Databases/Data warehouse.md",
-    "3_DS Notes/Snowflake.md",
-    "4_Engineering/Storage solutions.md",
-    "Databases/Relating tables.md",
-    "Databases/Optimisation.md",
     "2_Projects/Learning_repo/Learning repo canvas.canvas",
     "2_Projects/Github_io/Github.io canvas.canvas",
     "2_Projects/AIS/AIS ideas.canvas",

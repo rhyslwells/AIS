@@ -68,5 +68,6 @@
   "Databases/Database schema.md": "LiBox",
   "Databases": "LiBox",
   "Recruiter Naomi.md": "LiStar",
-  "note.md": "LiStar"
+  "docs/drafting/note.md": "LiStar",
+  "docs/drafting": "LiStar"
 }

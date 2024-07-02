@@ -14,5 +14,8 @@
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
   "useMarkdownLinks": false,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "docs/drafting",
+  "attachmentFolderPath": "img"
 }

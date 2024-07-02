@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "note",
-      "path": "note.md"
+      "basename": "Moving averages",
+      "path": "docs/drafting/Moving averages.md"
+    },
+    {
+      "basename": "Bollinger bands",
+      "path": "docs/drafting/Bollinger bands.md"
     },
     {
       "basename": "README",
       "path": "README.md"
     },
     {
-      "basename": "schedule",
-      "path": "docs/schedule.md"
+      "basename": "Topic",
+      "path": "docs/templates/Topic.md"
+    },
+    {
+      "basename": "Schedule",
+      "path": "docs/drafting/Schedule.md"
+    },
+    {
+      "basename": "bollinger_bands",
+      "path": "sessions/stock_analysis_report/template/markdown/bollinger_bands.md"
+    },
+    {
+      "basename": "Ideas",
+      "path": "docs/Ideas.md"
+    },
+    {
+      "basename": "Prompts",
+      "path": "docs/drafting/Prompts.md"
+    },
+    {
+      "basename": "note",
+      "path": "docs/drafting/note.md"
     },
     {
       "basename": "GMMC_schema",
@@ -175,30 +199,6 @@
     {
       "basename": "Gradient boosting",
       "path": "3_DS Notes/Gradient boosting.md"
-    },
-    {
-      "basename": "Ada boosting",
-      "path": "3_DS Notes/Ada boosting.md"
-    },
-    {
-      "basename": "interview questions",
-      "path": "1_Inbox/2_flashcards/interview questions.md"
-    },
-    {
-      "basename": "interview notepad",
-      "path": "1_Inbox/2_flashcards/interview notepad.md"
-    },
-    {
-      "basename": "Learning repo canvas",
-      "path": "2_Projects/Learning_repo/Learning repo canvas.canvas"
-    },
-    {
-      "basename": "Neural networks",
-      "path": "3_DS Notes/Neural networks.md"
-    },
-    {
-      "basename": "Get data",
-      "path": "3_DS Notes/Get data.md"
     }
   ],
   "omittedPaths": [],

@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "",
+  "templates_folder": "docs/templates",
   "templates_pairs": [
     [
       "",
@@ -13,17 +13,11 @@
   "shell_path": "",
   "user_scripts_folder": "",
   "enable_folder_templates": true,
-  "folder_templates": [
-    {
-      "folder": "1_Inbox/Data Science",
-      "template": "0_Archive/Templates/Data science session template.md"
-    }
-  ],
+  "folder_templates": [],
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [],
   "startup_templates": [
-    "0_Archive/Templates/Scratchpad.md",
     ""
   ],
   "enable_ribbon_icon": true

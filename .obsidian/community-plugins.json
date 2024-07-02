@@ -13,5 +13,6 @@
   "vscode-editor",
   "dataview",
   "obsidian-view-mode-by-frontmatter",
-  "obsidian-banners"
+  "obsidian-banners",
+  "templater-obsidian"
 ]
