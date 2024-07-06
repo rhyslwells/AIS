@@ -1,24 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Moving averages",
-      "path": "docs/drafting/Moving averages.md"
+      "basename": "Schedule",
+      "path": "docs/drafting/Schedule.md"
     },
     {
       "basename": "Bollinger bands",
-      "path": "docs/drafting/Bollinger bands.md"
+      "path": "docs/drafting/week1/Bollinger bands.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "note",
+      "path": "docs/drafting/note.md"
+    },
+    {
+      "basename": "Moving averages",
+      "path": "docs/drafting/week1/Moving averages.md"
+    },
+    {
+      "basename": "week 1 notebook",
+      "path": "docs/drafting/week1/week 1 notebook.md"
     },
     {
       "basename": "Topic",
       "path": "docs/templates/Topic.md"
     },
     {
-      "basename": "Schedule",
-      "path": "docs/drafting/Schedule.md"
+      "basename": "moving_average",
+      "path": "sessions/stock_analysis_report/template/markdown/moving_average.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
     },
     {
       "basename": "bollinger_bands",
@@ -31,10 +43,6 @@
     {
       "basename": "Prompts",
       "path": "docs/drafting/Prompts.md"
-    },
-    {
-      "basename": "note",
-      "path": "docs/drafting/note.md"
     },
     {
       "basename": "GMMC_schema",
@@ -191,14 +199,6 @@
     {
       "basename": "outliers",
       "path": "3_DS Notes/outliers.md"
-    },
-    {
-      "basename": "Interview questions",
-      "path": "3_DS Notes/Interview questions.md"
-    },
-    {
-      "basename": "Gradient boosting",
-      "path": "3_DS Notes/Gradient boosting.md"
     }
   ],
   "omittedPaths": [],

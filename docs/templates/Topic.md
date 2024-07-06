@@ -12,6 +12,10 @@ created: <% tp.file.creation_date() %>
 - **Type/Component 2**: [Brief explanation]
 ## Usage
 [Describe how this topic is used in finance. Include practical applications and scenarios.]
+
+## What to look for in use
+
+
 ## Example
 [Provide an example to illustrate the concept.]
 ### Code Example

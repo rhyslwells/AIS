@@ -2,7 +2,6 @@
 
 - [[Moving averages]]
 - [[Bollinger bands]]
-
 #### Week 2
 
 - **Relative Strength Index (RSI)**: A momentum oscillator that measures the speed and change of price movements.

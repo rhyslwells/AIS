@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a509215cc1dd121a",
+            "id": "8ce455f155ac0a81",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/drafting/Bollinger bands.md",
+                "file": "docs/drafting/Schedule.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "8ce455f155ac0a81",
+            "id": "185fb1a1b25ba6c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/drafting/Moving averages.md",
+                "file": "docs/drafting/week1/Bollinger bands.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +121,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "docs/drafting/Moving averages.md",
+                "file": "docs/drafting/Schedule.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/drafting/Moving averages.md"
+                "file": "docs/drafting/Schedule.md"
               }
             }
           },
@@ -194,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/drafting/Moving averages.md",
+                "file": "docs/drafting/Schedule.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/drafting/Moving averages.md",
+                "file": "docs/drafting/Schedule.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,16 +242,19 @@
   },
   "active": "8ce455f155ac0a81",
   "lastOpenFiles": [
-    "docs/drafting/Bollinger bands.md",
-    "README.md",
-    "docs/templates/Topic.md",
-    "docs/drafting/Moving averages.md",
+    "docs/drafting/week1/Bollinger bands.md",
     "docs/drafting/Schedule.md",
+    "docs/drafting/week1",
+    "docs/drafting/note.md",
+    "docs/drafting/week1/Moving averages.md",
+    "docs/drafting/week1/week 1 notebook.md",
+    "docs/templates/Topic.md",
+    "sessions/stock_analysis_report/template/markdown/moving_average.md",
+    "README.md",
     "sessions/stock_analysis_report/template/markdown/bollinger_bands.md",
     "docs/Ideas.md",
     "docs/drafting/Prompts.md",
     "docs/imgs",
-    "docs/drafting/note.md",
     "docs/drafting",
     "docs/templates",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/report.html",
@@ -268,7 +270,6 @@
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs",
     "sessions/06_2024/stock_analysis/requirements.txt",
     "sessions/06_2024/stock_analysis/venv/Scripts/deactivate.bat",
-    "sessions/06_2024/stock_analysis/venv/Scripts/activate.bat",
     "sessions/06_2024/stock_analysis/VEOEY/README.md",
     "sessions/06_2024/stock_analysis/VEOEY/net_income.png",
     "sessions/06_2024/stock_analysis/VEOEY/macd.png",
@@ -286,9 +287,6 @@
     "3_DS Notes/Hadoop.md",
     "3_DS Notes/Gradient Descent.md",
     "4_Engineering/Data engineer.md",
-    "Microsoft access.md",
-    "2_Projects/Todos obsidian.md",
-    "3_Tray/Kaggle Abalone regression.md",
     "2_Projects/Learning_repo/Learning repo canvas.canvas",
     "2_Projects/Github_io/Github.io canvas.canvas",
     "2_Projects/AIS/AIS ideas.canvas",
