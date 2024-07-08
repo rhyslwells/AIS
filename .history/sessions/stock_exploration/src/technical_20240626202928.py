@@ -94,7 +94,7 @@ def plot_macd_stoch(ticker, time_period, time_int):
     fig.add_trace(go.Bar(x=stock_df.index, y=stock_df['Volume']), row=4, col=1)
 
     fig.update_layout(title=ticker)
-    fig.update_yaxes(title_text="Price", row=1)
+    fig.update_yaxes(title_text="Price", row=1
 
 
 def example():
@@ -111,6 +111,7 @@ def example():
     plot_macd_stoch("PG", "5d", "5m")
 
 import numpy as np
+import talib as ta
 
 def calculate_rsi(df, close_column='Close', timeperiod=14):
     """

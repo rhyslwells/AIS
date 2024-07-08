@@ -10,13 +10,19 @@ import matplotlib.pyplot as plt
 
 import mplfinance as mpf
 
+import numpy as np
 import pandas as pd
+import plotly.express as px
 import plotly.graph_objects as go
-
+import plotly.subplots as make_subplots
+import yfinance as yf
 
 import cufflinks as cf
 cf.go_offline()
 
+import init_notebook_mode
+init_notebook_mode(connected=True)
+import download_plotlyjs
 
 from pandas_datareader import data as web
 from statsmodels.tsa.ar_model import AutoReg, ar_select_order

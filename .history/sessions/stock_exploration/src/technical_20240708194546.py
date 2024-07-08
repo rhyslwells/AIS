@@ -111,6 +111,7 @@ def example():
     plot_macd_stoch("PG", "5d", "5m")
 
 import numpy as np
+import talib as ta
 
 def calculate_rsi(df, close_column='Close', timeperiod=14):
     """

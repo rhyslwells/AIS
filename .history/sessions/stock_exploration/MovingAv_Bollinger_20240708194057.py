@@ -1,4 +1,4 @@
-from src.loading import get_column_from_csv, get_df_from_csv
+from src.loading import get_stock_df_from_csv, get_column_from_csv, get_df_from_csv
 
 from src.plotting import plot_with_boll_bands,price_plot
 from src.technical import calculate_ema,plot_candlestick_with_ema
