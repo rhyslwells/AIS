@@ -1,10 +1,8 @@
 import pandas as pd
 import datetime as dt
 import time
-import yfinance as yf
 import pandas_datareader.data as web
 
-# Define the function to save adjusted close prices to CSV from Yahoo Finance
 def save_to_csv_from_yahoo(folder, ticker, syear, smonth, sday, eyear, emonth, eday):
     """
     Fetches adjusted close prices for a given ticker from Yahoo Finance 
@@ -24,27 +22,12 @@ def save_to_csv_from_yahoo(folder, ticker, syear, smonth, sday, eyear, emonth, e
     end = dt.datetime(eyear, emonth, eday)
     
     try:
-        print(f"Getting data for: {ticker}")
-        df = yf.download(ticker, start=start, end=end)['Adj Close']
-        print(df.shape)
-        df.to_csv(f"{folder}{ticker}.csv")
+        print("Get Data for : ", ticker)
+        df = web.DataReader(ticker, 'yahoo', start, end)['Adj Close']
+        time.sleep(10)
+        df.to_csv(folder + ticker + '.csv')
     except Exception as ex:
-        print(f"Error fetching data for {ticker}: {ex}")
-
-data_location = 'data/'
-
-
-# Define the ticker symbol and date range
-ticker = 'COST'  # Apple Inc.
-S_YEAR = 2021
-S_MONTH = 1
-S_DAY = 1
-E_YEAR = 2024
-E_MONTH = 7
-E_DAY = 1
-
-# Call the function to fetch data and save to CSV
-save_to_csv_from_yahoo(data_location, ticker, S_YEAR, S_MONTH, S_DAY, E_YEAR, E_MONTH, E_DAY)
+        return()
     
 
 def get_column_from_csv(file, col_name):

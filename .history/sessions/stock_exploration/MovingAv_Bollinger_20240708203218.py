@@ -1,6 +1,6 @@
 import datetime as dt
 import pandas as pd
-from src.loading import get_column_from_csv, get_df_from_csv, save_to_csv_from_yahoo
+from src.loading import get_column_from_csv, get_df_from_csv,save_to_csv_from_yahoo
 from src.plotting import plot_with_boll_bands, price_plot
 from src.technical import calculate_ema, plot_candlestick_with_ema
 
@@ -8,22 +8,19 @@ from src.technical import calculate_ema, plot_candlestick_with_ema
 data_location = 'data/'
 
 # Ticker for Costco
-ticker = 'AMC'
+ticker = 'COST'
 
 # Start and end dates
 S_YEAR = 2021
-S_MONTH = 1
-S_DAY = 1
+S_MONTH = 7
+S_DAY = 8
 S_DATE_STR = f"{S_YEAR}-{S_MONTH}-{S_DAY}"
 S_DATE_DATETIME = dt.datetime(S_YEAR, S_MONTH, S_DAY)
 
-# End date set to 1st of July 2024
-E_YEAR = 2024
-E_MONTH = 7
-E_DAY = 1
-E_DATE_STR = f"{E_YEAR}-{E_MONTH}-{E_DAY}"
-E_DATE_DATETIME = dt.datetime(E_YEAR, E_MONTH, E_DAY)
-
+E_DATE_DATETIME = dt.datetime.today()
+E_YEAR = E_DATE_DATETIME.year
+E_MONTH = E_DATE_DATETIME.month
+E_DAY = E_DATE_DATETIME.day
 
 # Save adjusted close prices to CSV from Yahoo Finance
 save_to_csv_from_yahoo(data_location, ticker, S_YEAR, S_MONTH, S_DAY, E_YEAR, E_MONTH, E_DAY)
