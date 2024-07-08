@@ -3,8 +3,6 @@ import pandas as pd
 from src.loading import get_column_from_csv, get_df_from_csv, save_to_csv_from_yahoo
 from src.plotting import  price_plot
 from src.technical import calculate_ema, plot_candlestick_with_ema
-import plotly.graph_objects as go
-
 
 # Define path to files
 data_location = 'data/'
@@ -87,9 +85,9 @@ def plot_bollinger_bands(df, title="Stock Data with Bollinger Bands"):
     fig.show()
 
 # Plot with Bollinger Bands
-plot_bollinger_bands(df)
+plot_with_boll_bands(df)
 
-df.head()
+
 
 ######################################################################################
 def calculate_ema(df, column, spans):

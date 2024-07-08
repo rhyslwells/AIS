@@ -1,10 +1,8 @@
 import datetime as dt
 import pandas as pd
 from src.loading import get_column_from_csv, get_df_from_csv, save_to_csv_from_yahoo
-from src.plotting import  price_plot
+from src.plotting import plot_with_boll_bands, price_plot
 from src.technical import calculate_ema, plot_candlestick_with_ema
-import plotly.graph_objects as go
-
 
 # Define path to files
 data_location = 'data/'
@@ -59,8 +57,6 @@ def calculate_bollinger_bands(df, window=20):
     df['BB_Low'] = df['Mean'] - (2 * df['SD'])
     return df
 
-calculate_bollinger_bands(df, 20)
-
 def plot_bollinger_bands(df, title="Stock Data with Bollinger Bands"):
     """
     Plots candlestick chart with Bollinger Bands.
@@ -87,9 +83,9 @@ def plot_bollinger_bands(df, title="Stock Data with Bollinger Bands"):
     fig.show()
 
 # Plot with Bollinger Bands
-plot_bollinger_bands(df)
+plot_with_boll_bands(df, 'Adj Close')
 
-df.head()
+
 
 ######################################################################################
 def calculate_ema(df, column, spans):
