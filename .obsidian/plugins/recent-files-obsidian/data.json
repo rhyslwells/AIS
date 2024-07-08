@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "week 1 notebook",
+      "path": "docs/drafting/week1/week 1 notebook.md"
+    },
+    {
+      "basename": "Topic",
+      "path": "docs/templates/Topic.md"
+    },
+    {
       "basename": "Schedule",
       "path": "docs/drafting/Schedule.md"
     },
@@ -15,14 +23,6 @@
     {
       "basename": "Moving averages",
       "path": "docs/drafting/week1/Moving averages.md"
-    },
-    {
-      "basename": "week 1 notebook",
-      "path": "docs/drafting/week1/week 1 notebook.md"
-    },
-    {
-      "basename": "Topic",
-      "path": "docs/templates/Topic.md"
     },
     {
       "basename": "moving_average",

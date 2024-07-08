@@ -39,14 +39,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/templates/Topic.md",
+                "file": "docs/drafting/week1/week 1 notebook.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.50198364257812
+    "width": 257.51190185546875
   },
   "right": {
     "id": "5b13eed461f71e5a",
@@ -121,7 +122,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "docs/drafting/Schedule.md",
+                "file": "docs/drafting/week1/week 1 notebook.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -183,7 +184,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/drafting/Schedule.md"
+                "file": "docs/drafting/week1/week 1 notebook.md"
               }
             }
           },
@@ -193,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/drafting/Schedule.md",
+                "file": "docs/drafting/week1/week 1 notebook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/drafting/Schedule.md",
+                "file": "docs/drafting/week1/week 1 notebook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -240,15 +241,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8ce455f155ac0a81",
+  "active": "b59a0813f0957d9c",
   "lastOpenFiles": [
-    "docs/drafting/week1/Bollinger bands.md",
+    "sessions/stock_exploration/MovingAv_Bollinger.py",
+    "sessions/stock_exploration/main copy.py",
+    "docs/templates/Topic.md",
     "docs/drafting/Schedule.md",
+    "docs/drafting/week1/Bollinger bands.md",
     "docs/drafting/week1",
     "docs/drafting/note.md",
     "docs/drafting/week1/Moving averages.md",
     "docs/drafting/week1/week 1 notebook.md",
-    "docs/templates/Topic.md",
     "sessions/stock_analysis_report/template/markdown/moving_average.md",
     "README.md",
     "sessions/stock_analysis_report/template/markdown/bollinger_bands.md",
@@ -269,7 +272,6 @@
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs/adjusted_close.png",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs",
     "sessions/06_2024/stock_analysis/requirements.txt",
-    "sessions/06_2024/stock_analysis/venv/Scripts/deactivate.bat",
     "sessions/06_2024/stock_analysis/VEOEY/README.md",
     "sessions/06_2024/stock_analysis/VEOEY/net_income.png",
     "sessions/06_2024/stock_analysis/VEOEY/macd.png",

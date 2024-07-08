@@ -32,6 +32,24 @@ def save_to_csv_from_yahoo(folder, ticker, syear, smonth, sday, eyear, emonth, e
     except Exception as ex:
         return()
     
+def get_stock_df_from_csv(folder, ticker):
+    """
+    Reads a CSV file containing stock data, changes the index to date,
+    and returns the dataframe.
+    
+    Parameters:
+    folder (str): The directory where the CSV file is located.
+    ticker (str): The stock ticker symbol.
+    
+    Returns:
+    pd.DataFrame: The dataframe containing stock data.
+    """
+    try:
+        df = pd.read_csv(folder + ticker + '.csv')
+    except FileNotFoundError:
+        print("File Doesn't Exist")
+    else:
+        return df
 
 def get_column_from_csv(file, col_name):
     """
