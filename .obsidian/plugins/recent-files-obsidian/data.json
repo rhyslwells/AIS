@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "week 1 notebook",
-      "path": "docs/drafting/week1/week 1 notebook.md"
+      "basename": "portfolio tracker excel",
+      "path": "docs/drafting/portfolio tracker excel.md"
     },
     {
-      "basename": "Topic",
-      "path": "docs/templates/Topic.md"
+      "basename": "Untitled",
+      "path": "docs/drafting/Untitled.md"
     },
     {
       "basename": "Schedule",
@@ -17,8 +17,32 @@
       "path": "docs/drafting/week1/Bollinger bands.md"
     },
     {
+      "basename": "Ideas",
+      "path": "docs/Ideas.md"
+    },
+    {
+      "basename": "Prompts",
+      "path": "docs/drafting/Prompts.md"
+    },
+    {
+      "basename": "note",
+      "path": "docs/templates/note.md"
+    },
+    {
+      "basename": "Topic",
+      "path": "docs/templates/Topic.md"
+    },
+    {
       "basename": "note",
       "path": "docs/drafting/note.md"
+    },
+    {
+      "basename": "Note strategy",
+      "path": "docs/drafting/Note strategy.md"
+    },
+    {
+      "basename": "week 1 notebook",
+      "path": "docs/drafting/week1/week 1 notebook.md"
     },
     {
       "basename": "Moving averages",
@@ -35,14 +59,6 @@
     {
       "basename": "bollinger_bands",
       "path": "sessions/stock_analysis_report/template/markdown/bollinger_bands.md"
-    },
-    {
-      "basename": "Ideas",
-      "path": "docs/Ideas.md"
-    },
-    {
-      "basename": "Prompts",
-      "path": "docs/drafting/Prompts.md"
     },
     {
       "basename": "GMMC_schema",
@@ -183,22 +199,6 @@
     {
       "basename": "Difference between snowflake to hadoop",
       "path": "3_DS Notes/Difference between snowflake to hadoop.md"
-    },
-    {
-      "basename": "Automated Feature Creation",
-      "path": "3_DS Notes/Automated Feature Creation.md"
-    },
-    {
-      "basename": "Free course england",
-      "path": "1_Inbox/8_Job_hunt/Free course england.md"
-    },
-    {
-      "basename": "Boosting",
-      "path": "3_DS Notes/Boosting.md"
-    },
-    {
-      "basename": "outliers",
-      "path": "3_DS Notes/outliers.md"
     }
   ],
   "omittedPaths": [],

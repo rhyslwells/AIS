@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "ed974cee703665d2",
+        "id": "d41e0ede2c6c1f2a",
         "type": "tabs",
         "children": [
           {
-            "id": "8ce455f155ac0a81",
+            "id": "96f6df4d8577174f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/drafting/Schedule.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "185fb1a1b25ba6c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/drafting/week1/Bollinger bands.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b59a0813f0957d9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/drafting/week1/week 1 notebook.md",
+                "file": "docs/drafting/portfolio tracker excel.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.51190185546875
+    "width": 257.51190185546875,
+    "collapsed": true
   },
   "right": {
     "id": "5b13eed461f71e5a",
@@ -122,7 +96,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "docs/drafting/week1/week 1 notebook.md",
+                "file": "docs/drafting/portfolio tracker excel.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -184,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/drafting/week1/week 1 notebook.md"
+                "file": "docs/drafting/portfolio tracker excel.md"
               }
             }
           },
@@ -194,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/drafting/week1/week 1 notebook.md",
+                "file": "docs/drafting/portfolio tracker excel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/drafting/week1/week 1 notebook.md",
+                "file": "docs/drafting/portfolio tracker excel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -241,30 +215,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b59a0813f0957d9c",
+  "active": "96f6df4d8577174f",
   "lastOpenFiles": [
+    "sessions/7F157200",
+    "sessions/4DFD0200",
+    "sessions/~$portfolio decomp.ods",
+    "sessions/~$Portfolio_Tracker.xlsx",
+    "sessions/94620200",
+    "sessions/Portfolio_Tracker.xlsx",
+    "Portfolio_Tracker.xlsx",
+    "sessions/stock_exploration/portfolio_gen.py",
+    "docs/drafting/Untitled.md",
+    "docs/drafting/portfolio tracker excel.md",
+    "docs/drafting/Schedule.md",
+    "docs/drafting/week1/Bollinger bands.md",
+    "docs/Ideas.md",
+    "docs/drafting/Prompts.md",
+    "docs/templates/note.md",
+    "docs/templates/Topic.md",
+    "docs/drafting/note.md",
+    "docs/drafting/Note strategy.md",
+    "docs/drafting/Untitled 1.md",
+    "docs/drafting/week1/week 1 notebook.md",
     "sessions/stock_exploration/src/example.py",
     "sessions/stock_exploration/src/data/COST.csv",
     "sessions/stock_exploration/src/data/AAPL.csv",
-    "sessions/stock_exploration/src/data",
-    "sessions/stock_exploration/data/AMC.csv",
-    "sessions/stock_exploration/data/COST.csv",
-    "sessions/stock_exploration/data/AAL.csv",
-    "sessions/stock_exploration/src/__pycache__/__init__.cpython-310.pyc",
-    "sessions/stock_exploration/src/__pycache__/technical.cpython-310.pyc",
-    "sessions/stock_exploration/src/__pycache__/plotting.cpython-310.pyc",
-    "sessions/stock_exploration/src/__init__.py",
-    "docs/templates/Topic.md",
-    "docs/drafting/Schedule.md",
-    "docs/drafting/week1/Bollinger bands.md",
-    "docs/drafting/note.md",
     "docs/drafting/week1/Moving averages.md",
-    "docs/drafting/week1/week 1 notebook.md",
     "sessions/stock_analysis_report/template/markdown/moving_average.md",
     "README.md",
     "sessions/stock_analysis_report/template/markdown/bollinger_bands.md",
-    "docs/Ideas.md",
-    "docs/drafting/Prompts.md",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/report.md",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs/volume.png",
     "sessions/06_2024/stock_analysis/outputs/GOOGL/imgs/rsi.png",
@@ -284,11 +263,6 @@
     "Overview.md",
     "Data storage.md",
     "Home.md",
-    "Veolia prep/Veolia prep.md",
-    "Veolia prep/ProntoForm.md",
-    "3_DS Notes/Hadoop.md",
-    "3_DS Notes/Gradient Descent.md",
-    "4_Engineering/Data engineer.md",
     "2_Projects/Learning_repo/Learning repo canvas.canvas",
     "2_Projects/Github_io/Github.io canvas.canvas",
     "2_Projects/AIS/AIS ideas.canvas",
